@@ -1,0 +1,57 @@
+---
+title: "exploring the data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+```{r ,echo=FALSE}
+plot(rock[c("area","peri")])
+plot(cars)
+```
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+for(x in 0:100){
+  print(x)
+
+}
+```
+
+```{r}
+x <- 500
+while(x != 0){
+  print(x)
+  x <- x - 1
+}
+```
+
+
+```{r}
+names <- c("wolf","aiko","william","junko")
+ages <- c("26","16","18","56")
+d <- data.frame(names,ages)
+d <- d[order(d$ages,decreasing = FALSE),]
+for(row in 1:nrow(d)){
+  print(sprintf('%s is %s',as.character(d$names[row]),as.character(d$ages[row])))
+}
+
+```
