@@ -1,0 +1,4 @@
+file_id,view_history,rt,trial_type,trial_index,time_elapsed,internal_node_id,stimulus,button_pressed
+data_2019-12-17-13-45-31_pbqs9enq3t,"[{""page_index"":0,""viewing_time"":1898.5949999769218},{""page_index"":1,""viewing_time"":738.0000000121072},{""page_index"":2,""viewing_time"":716.8350000283681}]",3354.110000014771,instructions,0,3366,0.0-0.0-0.0,NA,NA
+data_2019-12-17-13-45-31_pbqs9enq3t,NA,690.7999999821186,html-button-response,1,5062,0.0-0.0-1.0,13 + 23 = 36,0
+data_2019-12-17-13-45-31_pbqs9enq3t,NA,14974.469999957364,html-button-response,2,20541,0.0-0.0-2.0,2 + 2 = 5,1
